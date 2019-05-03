@@ -14,7 +14,7 @@ print(address[0], address[1])
 pin = int(input("Enter your pin: "))
 
 def find_in_file(f):    
-    myfile = open("sample.txt")
+    myfile = open("fruits.txt")
     fruits = myfile.read()
     fruits = fruits.splitlines()
     if f in fruits:
